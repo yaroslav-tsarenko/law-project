@@ -17,6 +17,7 @@ const Header: React.FC = () => {
     return (
         <>
             {!isMenuOpen && (
+                <Fade>
                     <header className={styles.header}>
                         <section className={styles.headerSection}>
                             <button className={styles.burgerButton} onClick={toggleMenu}>
@@ -38,9 +39,10 @@ const Header: React.FC = () => {
                         <CallButton/>
                     </header>
 
+                </Fade>
+
             )}
             {isMenuOpen && (
-                <Slide direction={"down"} triggerOnce>
                     <div className={styles.burgerMenu}>
                         <button className={styles.closeButton} onClick={toggleMenu}>
                             <LiaTimesSolid className={styles.closeButtonIcon}/>
@@ -54,7 +56,6 @@ const Header: React.FC = () => {
                         <Link className={styles.headerNavButton} to={"/"} onClick={toggleMenu}>Часті контакти</Link>
                     </div>
 
-                </Slide>
             )}
         </>
     );

@@ -1,0 +1,30 @@
+.benefitContainer {
+  display: flex;
+  max-width: 230px;
+  width: 100%;
+  height: fit-content;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 24px 17px 24px;
+  background: var(--light-grey);
+  border-radius: 8px;
+  border: none;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+
+.benefitContainer h3 {
+  font-family: "Raleway Display", sans-serif;
+  font-weight: 600;
+  margin: 0 0 0 10px;
+  font-size: var(--font-size-20-px);
+  color: var(--secondary-color);
+}
+
+@media (max-width: 2000px) {
+  .benefitContainer {
+    padding: 7px 10px 7px 10px;
+  }
+
+}
