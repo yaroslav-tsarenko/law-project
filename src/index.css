@@ -7,6 +7,11 @@
   font-family: "Raleway", sans-serif;
 }
 
+body{
+  background: var(--secondary-color);
+
+}
+
 :root {
   --main-color: #ffffff;
   --secondary-color: #161d27;
