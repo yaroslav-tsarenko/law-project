@@ -34,7 +34,7 @@
 
 .lawyerImage {
   width: 50%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
 }
 
@@ -58,6 +58,7 @@
   .heroSection {
     display: flex;
     flex-direction: column-reverse;
+    padding: 0 0 30px 0;
   }
 
   .heroTitle{
@@ -73,7 +74,6 @@
   .heroDescription span {
     font-weight: 700;
   }
-
 
   .lawyerImage {
     width: 100%;

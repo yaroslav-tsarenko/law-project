@@ -9,7 +9,9 @@ interface BenefitProps {
 const Benefit: FC<BenefitProps> = ({icon, title}) => {
     return (
         <div className={styles.benefitContainer}>
-            {icon}
+            <div className={styles.benefitContainerIcon}>
+                {icon}
+            </div>
             <h3>{title}</h3>
         </div>
     );
