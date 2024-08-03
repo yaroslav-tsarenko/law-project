@@ -27,12 +27,20 @@
     padding: 7px 10px 7px 10px;
   }
 
+  .benefitContainer h3{
+    margin: 3px 0 0 0;
+    text-align: center;
+    justify-content: center;
+  }
+
 }
 
 @media (max-width: 1525px) {
   .benefitContainer {
     flex-direction: column;
     padding: 10px;
+    max-width: 160px;
+    min-width: 70px;
     width: 100%;
     border-radius: 0;
   }
