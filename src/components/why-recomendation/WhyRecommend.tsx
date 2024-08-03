@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "./WhyRecommend.module.scss";
 import RecommendationItem from "../recommendation-item/RecommendationItem";
 import {ReactComponent as ExperienceIcon} from "../../assets/icons/skill-icon.svg";
-import {ReactComponent as LawConstructorIcon} from "../../assets/icons/lawyer-constructor.svg";
+import { ReactComponent as LawConstructorIcon } from '../../assets/icons/lawyer-constructor.svg';
 import {ReactComponent as ResultativityIcon} from "../../assets/icons/results-icon.svg";
 import {ReactComponent as WideSpectreServices} from "../../assets/icons/wide-spectre-services.svg";
 import {ReactComponent as Accesibility} from "../../assets/icons/accessibility-icon.svg";
