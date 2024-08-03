@@ -30,21 +30,6 @@
   max-width: 1200px;
 }
 
-@media (max-width: 1200px) {
-  .legalServicesContent {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 900px) {
-  .legalServicesContent {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-
-}
 
 @media (max-width: 1700px) {
   .legalServicesWrapper {
@@ -57,3 +42,22 @@
     padding: 50px 10px 50px 10px;
   }
 }
+
+@media (max-width: 1200px) {
+
+  .legalServicesContent {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+@media (max-width: 900px) {
+  .legalServicesContent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+
+}
+

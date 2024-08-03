@@ -1,0 +1,66 @@
+.recommendationItemWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 456px;
+  width: 100%;
+  max-height: 200px;
+  height: 100%;
+  text-align: left;
+  transition: 0.2s ease-in-out;
+  background: var(--grey);
+}
+
+.icon{
+  width: 64px;
+  display: flex;
+  height: auto;
+}
+
+.recommendationItemTitle {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  color: var(--main-color);
+  font-family: "Playfair Display", sans-serif;
+  font-weight: lighter;
+  font-size: var(--font-size-18-px);
+}
+
+.recommendationItemTitle h3 {
+  margin: 0 0 0 10px;
+  font-weight: bold;
+  font-size: var(--font-size-18-px);
+  font-family: "Playfair Display", sans-serif;
+}
+
+.recommendationItemDescription {
+  margin: 15px 0 0 0;
+  color: var(--main-color);
+  font-weight: 300;
+}
+
+@media (max-width: 1490px) {
+  .recommendationItemWrapper{
+    max-height: 250px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 676px) {
+  .recommendationItemWrapper{
+    max-height: 350px;
+    max-width: 220px;
+  }
+
+  .recommendationItemTitle{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .icon{
+    margin: 0 0 10px 0;
+  }
+}

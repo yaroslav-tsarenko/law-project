@@ -5,6 +5,7 @@ import LegalServices from "../components/legal-services/LegalServices";
 import TownDeals from "../components/towns-deals/TownDeals";
 import QuestionToAction from "../components/question-to-action/QuestionToAction";
 import HeroDescription from "../components/hero-description/HeroDescription";
+import WhyRecommend from "../components/why-recomendation/WhyRecommend";
 
 const HomePage = () => {
     return (
@@ -15,6 +16,7 @@ const HomePage = () => {
             <TownDeals/>
             <QuestionToAction/>
             <HeroDescription/>
+            <WhyRecommend/>
             <QuestionToAction/>
             <QuestionToAction/>
         </>
