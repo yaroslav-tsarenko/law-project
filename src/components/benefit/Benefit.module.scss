@@ -28,3 +28,12 @@
   }
 
 }
+
+@media (max-width: 1525px) {
+  .benefitContainer {
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    border-radius: 0;
+  }
+}

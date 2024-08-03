@@ -60,6 +60,17 @@
     flex-direction: column-reverse;
   }
 
+  .heroDescription{
+    font-size: var(--font-size-20-px);
+    font-weight: 600;
+    margin: 32px 0 32px 0;
+  }
+
+  .heroDescription span {
+    font-weight: 700;
+  }
+
+
   .lawyerImage {
     width: 100%;
   }
