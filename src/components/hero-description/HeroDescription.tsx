@@ -10,7 +10,7 @@ const HeroDescription = () => {
                 <h1 className={styles.heroDescriptionTitle}>Професіонал, що <span>переймається</span> справами людей
                 </h1>
                 <div className={styles.heroDescriptionContent}>
-                    <img src={HeroImage} alt="Hero Image"/>
+                        <img src={HeroImage} alt="Hero Image"/>
                     <section className={styles.heroDescriptionText}>
                         <Slide direction="right" duration={200}>
                             <h1>Юрист з <span className={styles.heroDescriptionTitleLabel}>нестандартним</span> підходом
