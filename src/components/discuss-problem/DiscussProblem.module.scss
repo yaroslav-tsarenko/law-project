@@ -4,12 +4,12 @@
 
 .inputWrapper button{
   width: fit-content;
-  height: 100%;
   padding: 10px;
   border: none;
   font-weight: 600;
   margin: 0 0 0 5px;
   cursor: pointer;
+  height: 55px;
   background: var(--tertiary-color);
   border-radius: 10px;
   color: var(--main-color);
@@ -88,6 +88,7 @@
     width: 100%;
     margin: 10px 0 0 0;
     padding: 25px;
+    height: fit-content;
     font-size: var(--font-size-20-px);
   }
 

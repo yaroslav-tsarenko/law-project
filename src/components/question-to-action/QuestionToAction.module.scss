@@ -1,0 +1,79 @@
+.questionToActionWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+  background: url("../../assets/images/questions-to-actios-bg.png") no-repeat center center;
+  background-size: cover;
+}
+
+.questionToActionContent {
+  display: flex;
+  margin: 0 auto;
+  padding: 170px 252px 170px 252px;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.questionToActionContent section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.questionToActionContent section h1 {
+  color: var(--main-color);
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 600;
+  margin: 0 0 25px 0;
+  font-size: var(--font-size-32-px);
+}
+
+.questionToActionContent section h1 span {
+  font-family: "Playfair Display", sans-serif;
+  color: var(--tertiary-color);
+
+}
+
+.questionToActionContent section p {
+  display: flex;
+  color: var(--main-color);
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+@media (max-width: 1590px) {
+
+  .questionToActionContent section{
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+
+  .questionToActionContent{
+    padding: 170px 50px 170px 50px;
+  }
+
+  .agreementContent{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1500px;
+  }
+
+  .questionToActionContent{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .questionToActionContent section{
+    text-align: center;
+  }
+}
