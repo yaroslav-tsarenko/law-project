@@ -1,0 +1,23 @@
+.argumentWrapper {
+  display: flex;
+  margin: 35px 15px 35px 15px;
+  text-align: left;
+  align-content: center;
+  justify-content: left;
+  justify-items: left;
+  align-items: center;
+}
+
+.argumentWrapper p{
+  font-size: var(--font-size-18-px);
+  margin: 0 0 0 10px;
+  max-width: 520px;
+  width: 100%;
+}
+
+@media (max-width: 1440px) {
+  .argumentWrapper{
+    justify-content: center;
+    justify-items: center;
+  }
+}

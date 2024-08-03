@@ -1,0 +1,72 @@
+.townDealsWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 252px 64px 252px;
+  text-align: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.townDealsWrapper h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 600;
+  margin: 0 0 64px 0;
+  font-size: var(--font-size-44-px);
+}
+
+.townDealsWrapper h1 span {
+  font-family: "Playfair Display", sans-serif;
+  color: var(--tertiary-color);
+}
+
+.townDealsContent {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+}
+
+.mapIllustration{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.townDealsContent section {
+  margin: 50px 0 0 0;
+}
+
+@media (max-width: 1800px) {
+  .townDealsWrapper {
+    padding: 64px 100px 64px 100px;
+  }
+
+}
+
+@media (max-width: 1440px) {
+
+  .townDealsWrapper {
+    padding: 64px 20px 64px 20px;
+  }
+
+  .townDealsContent section {
+    margin: 50px auto;
+  }
+
+  .townDealsContent {
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+
+  }
+
+}
+
+@media (max-width: 476px){
+  .townDealsWrapper h1 {
+
+    font-size: var(--font-size-32-px);
+  }
+}
