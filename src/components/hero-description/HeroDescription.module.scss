@@ -1,0 +1,104 @@
+.heroDescriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.heroDescriptionContent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.heroDescriptionContent img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.heroDescriptionTitle {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  margin: 20px 0 65px 0;
+}
+
+.heroDescriptionTitle span {
+  color: var(--tertiary-color);
+  font-family: "Playfair Display", sans-serif;
+}
+
+.heroDescriptionTitleLabel {
+  color: var(--main-color);
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 600;
+}
+
+.heroDescriptionText {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 96px 252px 96px 144px;
+  justify-content: center;
+  text-align: left;
+  background: var(--tertiary-color);
+}
+
+.heroDescriptionText h1 {
+  color: var(--secondary-color);
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 600;
+  margin: 0 0 25px 0;
+  font-size: var(--font-size-32-px);
+}
+
+.heroDescriptionText p {
+  margin: 16px 0 16px 0;
+  font-size: var(--font-size-18-px);
+  font-family: "Raleway", sans-serif;
+}
+
+.heroDescriptionText h5 {
+  text-align: right;
+  font-size: var(--font-size-16-px);
+  font-weight: lighter;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.heroDescriptionText h3 {
+  color: var(--secondary-color);
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 600;
+  font-size: var(--font-size-24-px);
+  text-align: right;
+}
+
+@media (max-width: 1785px) {
+  .heroDescriptionText {
+    padding: 96px 50px 96px 50px;
+  }
+}
+
+@media (max-width: 1435px) {
+
+  .heroDescriptionWrapper{
+    padding: 0 0 0 0;
+    margin-bottom: 0;
+  }
+
+  .heroDescriptionTitle{
+    padding: 20px;
+  }
+
+  .heroDescriptionContent{
+    flex-direction: column-reverse;
+  }
+
+  .heroDescriptionContent img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+}
