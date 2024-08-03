@@ -60,6 +60,10 @@
     flex-direction: column-reverse;
   }
 
+  .heroTitle{
+    font-size: var(--font-size-54-px);
+  }
+
   .heroDescription{
     font-size: var(--font-size-20-px);
     font-weight: 600;
