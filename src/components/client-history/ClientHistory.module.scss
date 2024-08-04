@@ -68,3 +68,9 @@
     display: none;
   }
 }
+
+@media (max-width: 576px) {
+  .clientHistoryWrapper{
+    padding: 96px 24px 96px 24px;
+  }
+}
