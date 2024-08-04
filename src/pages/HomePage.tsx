@@ -7,6 +7,7 @@ import QuestionToAction from "../components/question-to-action/QuestionToAction"
 import HeroDescription from "../components/hero-description/HeroDescription";
 import WhyRecommend from "../components/why-recomendation/WhyRecommend";
 import ClientHistory from "../components/client-history/ClientHistory";
+import LawGoverment from "../components/law-goverment/LawGoverment";
 
 const HomePage = () => {
     return (
@@ -21,6 +22,7 @@ const HomePage = () => {
             <QuestionToAction/>
             <ClientHistory/>
             <QuestionToAction/>
+            <LawGoverment/>
         </>
     );
 };
