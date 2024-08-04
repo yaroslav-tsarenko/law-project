@@ -6,6 +6,7 @@ import TownDeals from "../components/towns-deals/TownDeals";
 import QuestionToAction from "../components/question-to-action/QuestionToAction";
 import HeroDescription from "../components/hero-description/HeroDescription";
 import WhyRecommend from "../components/why-recomendation/WhyRecommend";
+import ClientHistory from "../components/client-history/ClientHistory";
 
 const HomePage = () => {
     return (
@@ -18,6 +19,7 @@ const HomePage = () => {
             <HeroDescription/>
             <WhyRecommend/>
             <QuestionToAction/>
+            <ClientHistory/>
             <QuestionToAction/>
         </>
     );
