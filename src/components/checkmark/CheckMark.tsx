@@ -1,21 +1,33 @@
-import React, {FC} from 'react';
+import React, { FC, useState } from 'react';
 import styles from './CheckMark.module.scss';
 
 interface CustomCheckBoxProps {
     text?: string;
 }
 
-const CheckMark: FC<CustomCheckBoxProps> = ({text}) => {
+const CheckMark: FC<CustomCheckBoxProps> = ({ text }) => {
+    const [isChecked, setIsChecked] = useState(false);
+
+    const handleCheckboxChange = () => {
+        setIsChecked(!isChecked);
+    };
+
     return (
         <div className={styles.checkboxContainer}>
             <div className={styles.checkboxWrapper}>
-                <input type="checkbox" id="morning-checkbox" className={styles.inpCbx}/>
+                <input
+                    type="checkbox"
+                    id="morning-checkbox"
+                    className={styles.inpCbx}
+                    checked={isChecked}
+                    onChange={handleCheckboxChange}
+                />
                 <label htmlFor="morning-checkbox" className={styles.cbx}>
-        <span>
-          <svg width="12px" height="10px">
-            <use xlinkHref="#check-symbol"></use>
-          </svg>
-        </span>
+                    <span>
+                        <svg width="12px" height="10px">
+                            <use xlinkHref="#check-symbol"></use>
+                        </svg>
+                    </span>
                 </label>
                 <svg className={styles.inlineSvg}>
                     <symbol id="check-symbol" viewBox="0 0 12 10">

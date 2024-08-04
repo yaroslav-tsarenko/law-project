@@ -8,6 +8,8 @@ import HeroDescription from "../components/hero-description/HeroDescription";
 import WhyRecommend from "../components/why-recomendation/WhyRecommend";
 import ClientHistory from "../components/client-history/ClientHistory";
 import LawGoverment from "../components/law-goverment/LawGoverment";
+import FrequentlyQuestions from "../components/frequently-questions/FrequentlyQuestions";
+import Footer from "../components/footer/Footer";
 
 const HomePage = () => {
     return (
@@ -23,6 +25,9 @@ const HomePage = () => {
             <ClientHistory/>
             <QuestionToAction/>
             <LawGoverment/>
+            <FrequentlyQuestions/>
+            <QuestionToAction/>
+            <Footer/>
         </>
     );
 };

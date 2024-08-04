@@ -131,3 +131,10 @@
     gap: 20px;
   }
 }
+
+@media (max-width: 486px) {
+  .lawGovermentCredentials section p:last-child, .lawGovermentCredentials section p:last-child {
+    font-size: var(--font-size-16-px);
+  }
+
+}

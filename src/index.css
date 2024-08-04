@@ -16,8 +16,10 @@ body{
   --secondary-color: #161d27;
   --secondary-color-light: #1f2732;
   --tertiary-color: #d1b06b;
+  --tertiary-color-dark: #D1B06B;
   --tertiary-color-hover: #bd9747;
   --light-grey: #efeff0;
+  --medium-grey: #4f5964;
   --grey: #2e3642;
   --font-size-12-px: 0.75rem;
   --font-size-14-px: 0.875rem;
