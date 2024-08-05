@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.inputWrapper button{
+.inputWrapper button {
   width: fit-content;
   padding: 10px;
   border: none;
@@ -10,6 +10,10 @@
   margin: 0 0 0 5px;
   cursor: pointer;
   height: 55px;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
   background: var(--tertiary-color);
   border-radius: 10px;
   color: var(--main-color);
@@ -62,13 +66,13 @@
 }
 
 @media (max-width: 1580px) {
-  .inputWrapper{
+  .inputWrapper {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
 
-  .inputContainer{
+  .inputContainer {
     width: 100%;
     padding: 17px;
     font-size: var(--font-size-20-px);
@@ -84,7 +88,7 @@
 
   }
 
-  .inputWrapper button{
+  .inputWrapper button {
     width: 100%;
     margin: 10px 0 0 0;
     padding: 25px;
