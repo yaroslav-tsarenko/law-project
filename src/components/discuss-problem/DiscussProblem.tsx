@@ -26,8 +26,9 @@ const DiscussProblem = () => {
             console.log(response);
         } catch (error) {
             setMessage('Failed to save phone number.');
+        } finally {
+            setIsLoading(false);
         }
-        setIsLoading(false);
     };
 
     return (
