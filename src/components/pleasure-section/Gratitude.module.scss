@@ -1,0 +1,46 @@
+.gratitudeWrapper {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 250px;
+
+  h1 {
+    font-size: var(--font-size-44-px);
+    margin-bottom: 20px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+
+    span {
+      color: var(--tertiary-color);
+      font-family: "Playfair Display", sans-serif;
+      font-weight: 700;
+    }
+  }
+
+}
+
+.homeLink {
+  text-decoration: none;
+  color: var(--main-color);
+  background: var(--tertiary-color);
+  display: flex;
+  max-width: fit-content;
+  height: fit-content;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background: var(--tertiary-color-hover);
+  }
+}
+
+@media (max-width: 880px) {
+  .gratitudeWrapper{
+    padding: 250px 15px 250px 15px;
+  }
+}

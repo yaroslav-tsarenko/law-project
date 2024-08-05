@@ -95,18 +95,22 @@
 }
 
 @media (max-width: 1720px) {
+
   .footerWrapper {
     padding: 96px 55px 96px 55px;
   }
+
 }
 
 @media (max-width: 1360px) {
+
   .footerWrapper {
     padding: 96px 55px 96px 55px;
   }
   .footerContentUpper {
     grid-template-columns: repeat(4, 1fr);
   }
+
 }
 
 @media (max-width: 1100px) {
@@ -114,14 +118,15 @@
   .footerContentUpper {
     grid-template-columns: repeat(3, 1fr);
   }
+
 }
 
 
 @media (max-width: 776px) {
-
   .footerContentUpper {
     grid-template-columns: repeat(2, 1fr);
   }
+
 }
 
 @media (max-width: 596px) {
